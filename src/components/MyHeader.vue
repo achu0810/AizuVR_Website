@@ -3,19 +3,25 @@
     <md-toolbar class="md-primary" md-elevation="1">
       <img href="/#/" src="../assets/vrlogo.png" height="50px" width="120px">
       <h3 class="md-img" style="flex: 1"></h3>
-      <md-button class="md-primary">about</md-button>
-      <md-button class="md-primary">product</md-button>
-      <md-button class="md-primary">contacts</md-button>
-      <md-button href="http://aizu-vr.hatenablog.com/" class="md-primary">blog</md-button>
+      <md-menu　md-size="medium" md-align-trigger>
+        <md-button md-menu-trigger class="menu1">about</md-button>
+        <md-menu-content>
+          <md-menu-item>VR部とは</md-menu-item>
+          <md-menu-item>沿革</md-menu-item>
+          <md-menu-item>形態</md-menu-item>
+        </md-menu-content>
+      </md-menu>
+      <md-button class="menu2">members</md-button>
+      <md-button class="menu3">product</md-button>
+      <md-button class="menu4">contacts</md-button>
+      <md-button href="http://aizu-vr.hatenablog.com/" class="menu5">blog</md-button>
     </md-toolbar>
   </div>
 </template>
 
 <script>
 export default {
-  name: "MyHeader"
+  name: "MyHeader",
+  name: 'MenuAlignments'
 };
 </script>
-
-<style>
-</style>
