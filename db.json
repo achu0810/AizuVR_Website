@@ -2,26 +2,26 @@
     "news": [
         {
             "id": 1,
-            "image": "url",
-            "date": "",
+            "image": "https://i.imgur.com/NNoFNWf.png",
+            "date": "YYYY/MM/DD",
             "content": "Hogehoge"
         },
         {
             "id": 2,
-            "image": "url",
-            "date": "",
+            "image": "https://i.imgur.com/NNoFNWf.png",
+            "date": "YYYY/MM/DD",
             "content": "HugaHuga"
         },
         {
             "id": 3,
-            "image": "url",
-            "date": "",
+            "image": "https://i.imgur.com/NNoFNWf.png",
+            "date": "YYYY/MM/DD",
             "content": "FooFoo"
         },
         {
             "id": 4,
-            "image": "url",
-            "date": "",
+            "image": "https://i.imgur.com/NNoFNWf.png",
+            "date": "YYYY/MM/DD",
             "content": "BarBar"
         }
     ]
