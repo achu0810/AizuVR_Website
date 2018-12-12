@@ -28,4 +28,7 @@ export default {
 </script>
 
 <style scoped>
+.graphic {
+  height: 100px;
+}
 </style>
