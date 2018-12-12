@@ -1,0 +1,28 @@
+{
+    "news": [
+        {
+            "id": 1,
+            "image": "url",
+            "date": "",
+            "content": "Hogehoge"
+        },
+        {
+            "id": 2,
+            "image": "url",
+            "date": "",
+            "content": "HugaHuga"
+        },
+        {
+            "id": 3,
+            "image": "url",
+            "date": "",
+            "content": "FooFoo"
+        },
+        {
+            "id": 4,
+            "image": "url",
+            "date": "",
+            "content": "BarBar"
+        }
+    ]
+}
