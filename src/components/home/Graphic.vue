@@ -1,12 +1,9 @@
 <template>
-  <div>
-    <md-content>
-      <transition-group tag="figure" name="graphic">
-        <img v-for="url in imageURLs" :key="url" :src="url" v-if="imageURL == url">
-      </transition-group>
-    </md-content>
-    <md-icon>menu</md-icon>
-  </div>
+  <md-content>
+    <transition-group tag="figure" name="graphic">
+      <img v-for="url in imageURLs" :key="url" :src="url" v-if="imageURL == url">
+    </transition-group>
+  </md-content>
 </template>
 
 <script>

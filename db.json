@@ -1,0 +1,28 @@
+{
+    "news": [
+        {
+            "id": 1,
+            "image": "https://i.imgur.com/NNoFNWf.png",
+            "date": "YYYY/MM/DD",
+            "content": "Hogehoge"
+        },
+        {
+            "id": 2,
+            "image": "https://i.imgur.com/NNoFNWf.png",
+            "date": "YYYY/MM/DD",
+            "content": "HugaHuga"
+        },
+        {
+            "id": 3,
+            "image": "https://i.imgur.com/NNoFNWf.png",
+            "date": "YYYY/MM/DD",
+            "content": "FooFoo"
+        },
+        {
+            "id": 4,
+            "image": "https://i.imgur.com/NNoFNWf.png",
+            "date": "YYYY/MM/DD",
+            "content": "BarBar"
+        }
+    ]
+}
