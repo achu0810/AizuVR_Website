@@ -2,6 +2,7 @@
   <div>
     <graphic :imageURLs="imageURLs" :transitionTime="5"></graphic>
   </div>
+  
 </template>
 
 <script>
