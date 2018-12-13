@@ -1,15 +1,35 @@
 <template>
-    <div class="main-info">
-        <h1>
-            会津大VR部とは
-        </h1>
-        <br>
-        <div>
-            <p>2017年に設立された大学公認の部です。面白法人カヤックVR分室としても活動しています。</p>
-            <p>私たちのモットーは、<b>つくる、だす！</b>です。部内で開発したものを積極的にアウトプットしていきます。</p>
-            <p>もともとは2016年に学内で毎週開催されていた<a href="https://unity3d.com/jp">Unity</a>勉強会のメンバーで、VRに関心がある人を10人ほど集めて設立したサークルでした。2018年に正式に部へと昇格しました。</p>
-            <p>初めは部員数が少なかったものの、現在は30名を超える部員数となっています。</p>
-            <p>2018年まではチーム開発をメインの活動としており、4〜5人で1チームになりVRゲームの開発と<a href="http://ivrc.net">IVRC</a>に出場するためのチームに分かれ活動をしていました。</p>
-        </div> 
+    <div class="department">
+        <div class="main-form">
+            <h1>
+                部内形態
+            </h1>
+            <br>
+            <md-tabs class="md-transparent" md-alignment="fixed">
+                <md-tab id="tab-home" md-label="ゲーム部">
+                    <h2><span style="color: red">ゲ</span><span style="color: orange">ー</span><span style="color: green">ム</span><span style="color: blue">部</span></h2>
+                </md-tab>
+
+                <md-tab id="tab-pages" md-label="新規開発部">
+                    <h2><span style="color: #3b658b">新規開発部</span></h2>
+                </md-tab>
+
+                <md-tab id="tab-posts" md-label="IVRC部">
+                    <h2><span style="color: #84cdf2">IV</span><span style="color: #dd5034">RC部</span></h2>
+                </md-tab>
+            </md-tabs>
+        </div>
     </div>
 </template>
+
+<script>
+  export default {
+    name: 'DepartmentForm'
+  }
+</script>
+
+<style scoped>
+.department {
+    padding: 50px;
+}
+</style>

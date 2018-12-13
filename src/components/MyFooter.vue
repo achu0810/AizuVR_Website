@@ -29,6 +29,10 @@ export default {
 footer {
   padding: 50px;
   background: var(--md-theme-default-primary);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
 }
 
 ul {
