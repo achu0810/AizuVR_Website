@@ -24,6 +24,7 @@ export default {
 .main-info {
     padding: 50px;
 }
+
 a:visited {
     color : black;
 }

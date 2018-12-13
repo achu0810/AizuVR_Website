@@ -1,12 +1,12 @@
 <template>
   <div class="header">
     <md-toolbar class="md-primary" md-elevation="1">
-      <img href="/#/" src="../assets/vrlogo.png" height="50px" width="120px">
+      <a href="/#/"><img src="../assets/vrlogo.png" height="50px" width="120px"></a>
       <h3 class="md-img" style="flex: 1"></h3>
       <md-menu　md-size="medium" md-align-trigger>
         <md-button md-menu-trigger class="menu1">about</md-button>
         <md-menu-content>
-          <md-menu-item>VR部とは</md-menu-item>
+          <md-menu-item href="/#/info">VR部とは</md-menu-item>
           <md-menu-item>沿革</md-menu-item>
           <md-menu-item>形態</md-menu-item>
         </md-menu-content>
