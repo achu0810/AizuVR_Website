@@ -13,7 +13,7 @@
       </md-menu>
       <md-button class="menu2">members</md-button>
       <md-button class="menu3">product</md-button>
-      <md-button class="menu4">contacts</md-button>
+      <md-button class="menu4" href="/#/contacts">contacts</md-button>
       <md-button href="http://aizu-vr.hatenablog.com/" class="menu5">blog</md-button>
     </md-toolbar>
   </div>
