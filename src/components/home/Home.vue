@@ -3,6 +3,7 @@
     <graphic :imageURLs="imageURLs" :transitionTime="5"></graphic>
     <news></news>
   </div>
+  
 </template>
 
 <script>
