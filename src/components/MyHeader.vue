@@ -7,8 +7,8 @@
         <md-button md-menu-trigger class="menu1">about</md-button>
         <md-menu-content>
           <md-menu-item href="/#/info">VR部とは</md-menu-item>
-          <md-menu-item>沿革</md-menu-item>
-          <md-menu-item>形態</md-menu-item>
+          <md-menu-item href="/#/history">沿革</md-menu-item>
+          <md-menu-item href="/#/departmentform">形態</md-menu-item>
         </md-menu-content>
       </md-menu>
       <md-button class="menu2">members</md-button>

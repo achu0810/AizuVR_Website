@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/home/Home'
 import Info from '@/components/about/Info'
+import MyHistory from '@/components/about/MyHistory'
+import DepartmentForm from '@/components/about/DepartmentForm'
 
 Vue.use(Router)
 
@@ -16,6 +18,14 @@ export default new Router({
       path: '/info',
       name: 'Info',
       component: Info
+    },{
+      path: '/history',
+      name: 'History',
+      component: MyHistory
+    },{
+      path: '/departmentform',
+      name: 'DepartmentForm',
+      component: DepartmentForm
     }
   ]
 })
